@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient( 180.3deg,  rgba(221,221,221,1) 5.5%, rgba(110,136,161,1) 90.2% );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.form{
+    width: 700px;
+    margin: auto;
+}
+.registation-form {
+    /* background-color: rgb(251, 250, 248); */
+    background-color: white;
+    width: 45em;
+    height: 95vh;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 20px auto;
+  }
+  
+  .heading {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .submit-btn{
+    background-image: linear-gradient(16deg,#ff005a 0%,#ff5d2d 64%,#ffba00 100%);  
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: 0.3s;
+  }
+  .submit-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+  }
